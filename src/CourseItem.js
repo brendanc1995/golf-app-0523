@@ -8,4 +8,4 @@ export default function CourseItem(props){
             <p>{props.data.courseLocation}</p>
         </>
     )
-}
+    }
