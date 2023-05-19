@@ -8,6 +8,7 @@ export default function CourseInfoContainer(){
     return(
         <div>
             <h1>Hello</h1>
+            <CourseInfo />
         </div>
     )
 
