@@ -7,7 +7,7 @@ export default function CourseInfoContainer(){
 
     return(
         <div>
-        {courseInfo}
+            {courseInfo}
         </div>
     )
 
