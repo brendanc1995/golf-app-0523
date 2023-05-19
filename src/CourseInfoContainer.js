@@ -1,13 +1,13 @@
 import React from "react";
 import CourseInfo from "./CourseInfo";
-import courseData from "./courseData";
+//import courseData from "./courseData";
 
 export default function CourseInfoContainer(){
-    const courseInfo = courseData.map((data) => <CourseInfo data={data} />)
+    //const courseInfo = courseData.map((data) => <CourseInfo data={data} />)
 
     return(
         <div>
-            {courseInfo}
+            <h1>Hello</h1>
         </div>
     )
 
