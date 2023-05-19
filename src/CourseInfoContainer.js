@@ -1,6 +1,6 @@
 import React from "react";
 import CourseInfo from "./CourseInfo";
-//import courseData from "./courseData";
+import courseData from "./courseData";
 
 
 export default function CourseInfoContainer() {
