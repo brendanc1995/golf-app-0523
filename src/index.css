@@ -1,0 +1,57 @@
+body{margin: 0; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;background-image: url('https://lh3.googleusercontent.com/htEILh5qq0dLlofU44vU1JmeL6xvFTpq-5LRUFcqMh1yKgtFBrOCODS221ewOueYvlC1V3j3IBIFcT3wEHahBgKUKu1cRak4vbcCdiARXgtcyZ4Ymd5ybvacnNHRQTj1G7pDnKrvs3bRCAPGgF7flRqDN-D6bmbBL5y0jHk2qskFH1cnLUvVc-7FQZr-3xpHyChDnbTRUErOKq_xgf8p5YSdhzTWF7DsaFSJhWmRxspaNJK1f431BkX4t-m9Grr4fmL5AHF8tGUlErOoVHAlObQr61RBkyC-araOi58L3WSwpR0mZFfiDrpqottjdBxfZH5Fzy28NrS86jM9r0l_sgFQWiunFBvLKWN-CubvOVgMp6L9V3FSgIBT4Vr2M9r-r3rIhVUqlXOL8lD1xPqM8wMbvZyopNICDx9MPS6N8ynfnOdD_d-b_Lych1jt3bjV5AVFM4JXgcbaVRnekoMnmatjIfA5kctO-8chzhIGmAA2eu_bC6N_Xrs1jedWERHGncbtDz3SHP-un2devoaErQ4Mj590qlUevfKX0gyzDMSMrNtEbFOj5e8kvu4vTRuNFvhrVJK39acfF6AxfVzv787tRXNamK9Iv8rqLG2sGdRCxnqIsGLHTgBZ92U-fRs3TBkBYMRO5zz_SQDxrWgv3-pZUJbf0BnnEkxbhUk1WKfNCyzrzvLZSghaHPoilSKJU6Q2wipXb_6H8E7fo-4nPPF2EpVvvrHc4iE7JfbNrPo-lQzU9Z918A9AduWOP2x6FC4rByk6oVz5NNGiT4QhKhX2f5ftaw-TIwXrm8frtO7iNLGepGDWfdHhtb9fSMAeg3lGRXvtLmTXiQUCauxChZkMpyA26ANetuiFUlf0oL-VP7j0rJDBxoJvdrGLmnTRu0ipnMF9iVaZP-YJ-p2sz7uWh17gH882WCT06F3VU7Zo=w1005-h670-s-no?authuser=0');}
+.App{padding:0 5px;}
+
+.hamburger{position: fixed;z-index: 1000;}
+.navigation-container{
+    background-color: darkgreen;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: .1s ease-in;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.hamburger{color: #ffffff;}
+.close{
+    height: 80px;
+}
+.open{
+    height: 100vh;
+}
+.navigation-container ul{padding:0px;text-align: center;display: flex;align-items: center;justify-content: center;height: 100vh;width: 100%;}
+.navigation-container ul li{
+    list-style-type: none;
+    font-size: 30px;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    padding: 15px 0;
+}
+.navigation-container ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.course-container{padding-top:100px;}
+
+.infoContainer{
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    border:1px solid darkgreen;
+    margin-bottom: 20px;
+    background-color:rgba(255,255,255,.8)
+}
+
+.infoContainer h2{padding-left: 10px;}
+.info{
+    display: flex;
+    justify-content:  space-between;
+    background-color: darkgreen;
+    color:#ffffff;
+    padding: 10px;
+    
+
+}
+.info p{margin: 0;font-weight: bold;}

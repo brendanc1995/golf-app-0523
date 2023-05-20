@@ -5,8 +5,13 @@ export default[
         courseLocation: "Southington, CT"
     },
     {
-        courseName: "Hawks Landing",
+        courseName: "Southington Country Club",
         parTotal: "70",
         courseLocation: "Southington, CT"
+    },
+    {
+        courseName: "Stranley Golf Course",
+        parTotal: "70",
+        courseLocation: "New Britain, CT"
     }
 ]
