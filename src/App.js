@@ -1,18 +1,12 @@
 import React from "react";
-import CourseInfoContainer from "./CourseInfoContainer";
-import Navigation from "./Navigation"
+import Navigation from "./components/Navigation";
 
 function App() {
 
-
+  
 
   return (
-    <div className="App">
-    <Navigation />
-    <CourseInfoContainer />
-    
-
-    </div>
+    <Navigation/>
   )
 }
 
