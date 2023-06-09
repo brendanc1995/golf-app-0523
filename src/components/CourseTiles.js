@@ -5,8 +5,10 @@ export default function CourseTiles(props){
         
         <div className="course-container">
             <h2>{props.info.courseName}</h2>
-            <p>{props.info.description}</p>
-            <p>{props.info.par}</p>
+            <div className="course-info">
+                <p>{props.info.description}</p>
+                <p>Par: {props.info.par}</p>
+            </div>
         </div>
 
     )

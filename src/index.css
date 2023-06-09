@@ -1,14 +1,30 @@
+body{padding:10px}
 .course-container{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border:1px solid #cdcdcd;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+.course-info{
+    background-color: darkgreen;
     padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+a .course-info p{
+    color:#ffffff;
+    text-decoration: none;
 }
 h2{
     margin-top:0;
+    padding:10px;
+    color: darkgreen;
 }
 p{
     margin-top:0;
     margin-bottom: 0;
+    font-size:16px;
 }
