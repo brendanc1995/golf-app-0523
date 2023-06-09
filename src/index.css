@@ -1,4 +1,43 @@
-body{padding:10px}
+
+
+nav{
+    background-color:darkgreen;
+    position: relative;
+    padding: 10px 5px;
+}
+nav i{
+    font-size: 40px;
+    color:#ffffff;
+}
+nav ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color:#ffffff;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: .5s ease-in-out;
+    height:0px;
+    overflow: hidden;
+}
+.open{
+    height: auto;
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+    border-bottom: 2px solid darkgreen;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul li a{
+    color: darkgreen;
+}
+
 .course-container{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border:1px solid #cdcdcd;
@@ -27,4 +66,8 @@ p{
     margin-top:0;
     margin-bottom: 0;
     font-size:16px;
+}
+
+.content-container{
+    padding: 0 10px;
 }
