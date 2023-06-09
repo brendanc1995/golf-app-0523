@@ -5,7 +5,6 @@ import {NavLink} from "react-router-dom"
 export default function Courses(){
     const [courses, setCourses] = React.useState([]); 
     React.useEffect(() => {
-        // Fetch data from the server
         fetch('http://localhost:5000/')
           .then(response => response.json())
           .then(data => {
