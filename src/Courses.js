@@ -1,6 +1,7 @@
 //import { response } from 'express';
 import React from 'react'
 import CourseTiles from './components/CourseTiles';
+import {NavLink} from "react-router-dom"
 
 export default function Courses(){
     const [courses, setCourses] = React.useState([]); 
@@ -18,16 +19,23 @@ export default function Courses(){
       }, []);
       const courseMap = courses.map(function(info){
         return(
-            <CourseTiles info={info}/>
+            <NavLink to={`/courses/${info._id}`}>
+                <CourseTiles info={info}/>
+            </NavLink>
         )
     })
 
    console.log(courses)
     
     return(
+        <>
         <div>
       <h1>Course List</h1>
       {courseMap}
     </div>
+
+
+
+</>
     )
 }
