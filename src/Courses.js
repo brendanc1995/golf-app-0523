@@ -16,17 +16,16 @@ export default function Courses(){
       }, []);
       const courseMap = courses.map(function(info){
         return(
-            <NavLink to={`/courses/${info._id}`}>
+            <NavLink to={`/courses/${info._id}`} key={info._id}>
                 <CourseTiles info={info}/>
             </NavLink>
         )
     })
 
-   console.log(courses)
     
     return(
         <>
-        <div>
+        <div className='content-container'>
       <h1>Course List</h1>
       {courseMap}
     </div>

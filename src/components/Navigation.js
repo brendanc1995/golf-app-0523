@@ -12,12 +12,11 @@ export default function Navigation(){
     setMenu(false)
   }
 
-var navUl = document.getElementsByClassName("nav-ul")[0]
-console.log(navUl.offsetHeight)
+
 
   
   return(
-    <div>
+    <div className="nav-container">
       <nav>
         <i class="bi bi-list menu" onClick={openMenu}></i>
         <ul className={`nav-ul ${menu === true ? "open" : ""}`}>
